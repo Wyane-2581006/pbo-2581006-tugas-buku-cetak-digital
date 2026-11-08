@@ -1,4 +1,4 @@
-public class BukuCetak extends Buku{
+public class BukuCetak extends Buku {
 
     private int beratGram;
 
@@ -8,7 +8,7 @@ public class BukuCetak extends Buku{
     }
 
     public int hitungOngkir() {
-        return((beratGram + 499)/500) * 5000;
+        return ((beratGram + 499) / 500) * 5000;
     }
 
     @Override
